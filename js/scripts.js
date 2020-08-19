@@ -8,9 +8,14 @@ const pigLatinWord = word.concat(vowelWord);
 const superPigLatinWord = pigLatinWord.join("");
 
 //Test Two
-////need to splice or slice the first letter of the word
+//need to splice or slice the first letter of the word
+const word= ["This"];
+const vowelWord = ["way"];
+let stringWord = word.toString();
+let splitWord = stringWord.split("");
+let sliceWord = splitWord.slice(1);
 
-}
+
 // target words beginnig with a vowel 
 //Test two 
 // Target words beginning with consonants, ( include "y" and include "qu") 
