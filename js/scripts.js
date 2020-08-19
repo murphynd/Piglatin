@@ -15,8 +15,27 @@ let stringWord = word.toString();
 let splitWord = stringWord.split("");
 let sliceWord = splitWord.slice(1);
 
+// Test Three
+// target Fist letter of word
+const word = ["This"];
+const vowelWord = ["way"];
+let stringWord = word.toString();
+let oneLetterWord = stringWord.charAt(0);
 
-// target words beginnig with a vowel 
+//Test Four
+// recognize if first letter is a vowl
+const word = ["This"];
+const vowelWord = ["way"];
+let stringWord = word.toString();
+let oneLetterWord = stringWord.charAt(0);
+  if oneLetterWord === ["a","e","i","o","u"]
+    const pigLatinWord = word.concat(vowelWord);
+    const superPigLatinWord = pigLatinWord.join("");
+
+
+
+
+
 //Test two 
 // Target words beginning with consonants, ( include "y" and include "qu") 
 
